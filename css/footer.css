@@ -1,0 +1,187 @@
+@font-face {
+    font-family: MuseoSans-900;
+    src: url("/fonts/MuseoSans-900.woff");
+
+}
+@font-face {
+    font-family: MuseoSans-700;
+    src: url("/fonts/MuseoSans-700.woff");
+
+}
+@font-face {
+    font-family: MuseoSans-500;
+    src: url("/fonts/MuseoSans-500.woff");
+
+}
+@font-face {
+    font-family: MuseoSans-300;
+    src: url("/fonts/MuseoSans-300.woff");
+
+}
+@font-face {
+    font-family: MuseoSans-100;
+    src: url("/fonts/MuseoSans-100.woff");
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+html , body{
+    height: 100%;
+}
+.footer{
+    position: relative;
+  bottom: 0; 
+    width: 100%;
+}
+.footer .social{
+    border-top: 1px dotted white;
+    height: 60px;
+    background-color: #232B38;
+    display: flex;
+    justify-content: center;
+}
+.footer .social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+ 
+}
+.footer .social i{
+    color: #C8CACD;
+  font-size: 20px;
+}
+.footer .linksfooter{
+    display: flex;
+    justify-content: center;
+    height: 57px;
+    background-color: #181C23;
+    border-bottom: 1px solid #808080;
+    
+}
+
+.footer .linksfooter ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer .linksfooter ul li{
+   list-style: none;
+   height: 57px;
+}
+.footer .linksfooter ul li a{
+    color: white;
+    font-size: 11px;
+    height: 57px;
+    padding:10px ;
+    border-left: .5px solid #232B38;
+    border-right: .5px solid #232B38;
+    display: flex;
+   align-items: center;
+   font-family: 'MuseoSans-500';
+   
+}
+.footer .infolinks{
+    height: 118px;
+    background-color: #181C23;
+    display: flex;
+    justify-content: center;
+}
+.footer .infolinks ul{
+    display: flex;
+    flex-direction: row;
+
+}
+.footer .infolinks ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.footer .infolinks ul li a{
+    color: #C3CBD7;
+    font-family: 'MuseoSans-300';
+    font-size:11px ;
+    line-height: 80px;
+}
+.footer .infolinks ul li p{
+    color: #C3CBD7;
+    font-family: 'MuseoSans-300';
+    font-size:11px ;
+}
+.footer .infolinks ul li a , .footer .infolinks ul li p {
+    margin: 15px;
+}
+.footer .infolinks ul li:hover{
+    color: white;
+    border-bottom: 1px dotted white;
+}
+.footer .infolinks ul .copyrihttext:hover{
+    border-bottom: none;
+} 
+.footer .infolinks ul li a:hover{
+    color: white;
+}
+.fa-tkblog {
+    background-image: url(https://www.turkishairlines.com/theme/img/icons/tkblog-icon.png)!important;
+    height: 19px;
+    width: 19px;
+}
+@media screen and (max-width:700px) {
+    .footer .linksfooter{
+       
+        overflow-x: scroll;
+    }
+
+    .footer .linksfooter ul li a{
+        color: white;
+        font-size: 8px;
+    }
+    .footer .infolinks{
+        height: 160px;
+        background-color: #181C23;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .infolinks ul{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .footer .infolinks ul li{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+    .footer .infolinks ul li a{
+        
+        color: #C3CBD7;
+        font-family: 'MuseoSans-300';
+        font-size:8px ;
+        line-height: 20px;
+    }
+    .footer .infolinks ul li p{
+       
+        color: #C3CBD7;
+        font-family: 'MuseoSans-300';
+        font-size:8px ;
+    }
+    .footer .infolinks ul li a , .footer .infolinks ul li p {
+        margin: 10px;
+    }
+}
