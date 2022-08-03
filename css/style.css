@@ -278,5 +278,7 @@ dl, ol, ul {
     color: white;
     
 }
-
+.carousel-item  img{
+    height: 70vh;
+}
 }
